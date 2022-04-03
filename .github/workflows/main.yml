@@ -25,6 +25,6 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             wellsud/rotten-potatoes:latest
             wellsud/rotten-potatoes:v${{ github.run_number }}
